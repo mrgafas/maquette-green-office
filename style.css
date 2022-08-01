@@ -1,0 +1,122 @@
+@font-face {
+    font-family: Oswald;
+    src: url("./font/oswald/Oswald-Regular.ttf");
+}
+
+.container{
+    background-color: white;
+} 
+body{
+    
+    background-image: url("../img/fond.png");
+    background-size: contain;
+        width: 750px;
+    margin: auto;
+} 
+header {
+    background-color: #b8cb21 ;
+   color: black;
+    padding: 10px;
+   overflow: auto;
+  }
+
+.logo {
+    width: 10px; 
+    display: inline-block; 
+}
+
+ nav,ul,nav>ul>li{
+    display: inline-block;  
+    margin-top: 18px;
+
+} 
+
+header nav{
+    float: right;
+   
+} 
+a{
+    color: black;
+    font-size: 1.3em;
+    padding: 15px;
+    font-family: Oswald;
+
+}
+
+main{
+   margin: 0px 15px 0px 15px;
+} 
+section h2{
+    color:#b8cb21 ;
+    padding-top: 20px;
+    font-family: Oswald;
+}
+
+#im1{
+    width: 8vw;
+   height: 3vw;
+   float:left;
+   margin-right: 10px;
+}
+
+#bot{
+    float: right;
+    background-color: #b8cb21 ;
+    color:white ;
+    border-color: transparent;
+}
+
+#im2{
+    width: 8vw;
+   height: 3vw;
+   float:left;
+   margin-right: 10px;
+}
+#bot2{
+    
+    background-color: #b8cb21 ;
+    color:white ;
+    border-color: transparent;
+}
+
+#section{
+    padding-bottom: 60px;
+    font-family: 'Oswald';
+}
+
+#bot2{
+    float:right;
+   margin-top: 150px;
+}
+
+footer span{
+    display: flex;
+    justify-content: center;
+}
+footer img{
+    width: 2vw;
+    margin-top: 1vw;
+}
+footer p{
+    
+    text-align: center;
+  margin-left: -12vw;
+    margin-right: -12vw;
+} 
+.pb,.pc,.pe{
+    text-decoration: underline;
+    color: blueviolet;
+    font-size: 0.9em;
+}
+.pd{
+    text-decoration: underline ;
+    color: blue;
+    font-size: 0.9em;
+}
+/*    
+.pf{
+    font-size: 0.9em;
+ }
+.pf{
+    text-align: center;
+} */
